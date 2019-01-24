@@ -1,0 +1,5 @@
+text = ("Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec metus tellus, mollis ac euismod sit amet, facilisis elementum dui. Maecenas auctor ultricies erat vitae imperdiet. Ut eget dolor euismod, molestie mauris quis, fringilla justo. Praesent tristique risus ex, quis facilisis leo ullamcorper ut. Praesent fringilla est urna, quis tincidunt sem maximus ut. Maecenas egestas interdum posuere. Praesent ultricies tincidunt ligula ut tincidunt. Sed nec imperdiet purus, id pretium sem. Nunc feugiat, mi at ornare pretium, metus felis pharetra mauris, quis condimentum quam sapien eget eros. Vestibulum lobortis auctor massa ut interdum. Donec ultricies metus est, et congue diam malesuada non. Curabitur eget libero quis eros pharetra auctor. Nulla purus ante, ornare id erat ut, tincidunt rutrum arcu. Quisque efficitur libero magna, tincidunt tempor neque malesuada eget. \n")
+veces = int(input('Ingrese la cantidad de veces que desea repetir el parrafo: '))
+while veces > 0:
+    print(text)
+    veces -=1
